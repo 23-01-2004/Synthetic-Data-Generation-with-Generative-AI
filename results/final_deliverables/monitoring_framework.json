@@ -1,0 +1,72 @@
+{
+  "performance_metrics": {
+    "daily_metrics": [
+      "F1-score",
+      "Precision",
+      "Recall",
+      "ROC-AUC",
+      "False Positive Rate",
+      "False Negative Rate"
+    ],
+    "weekly_metrics": [
+      "Average Precision",
+      "Business Impact",
+      "Cost Analysis",
+      "Data Quality Scores"
+    ],
+    "alert_thresholds": {
+      "f1_score_degradation": "Drop of >0.05 from baseline",
+      "recall_degradation": "Drop of >0.08 from baseline",
+      "false_positive_increase": "Increase of >50% from baseline"
+    }
+  },
+  "data_drift_monitoring": {
+    "feature_drift": [
+      "Statistical tests (KS, PSI) on feature distributions",
+      "Monitoring of correlation structures",
+      "Outlier detection and analysis"
+    ],
+    "concept_drift": [
+      "Performance degradation analysis",
+      "Feature importance changes",
+      "Prediction distribution shifts"
+    ],
+    "synthetic_data_quality": [
+      "Regular validation of synthetic data against recent patterns",
+      "Statistical similarity tests for new synthetic batches",
+      "Domain expert validation of synthetic samples"
+    ]
+  },
+  "business_metrics_tracking": {
+    "fraud_detection": [
+      "Fraud detection rate",
+      "Average fraud amount detected",
+      "Time to detection"
+    ],
+    "cost_analysis": [
+      "False positive costs",
+      "Fraud prevention savings",
+      "Operational efficiency gains"
+    ],
+    "customer_impact": [
+      "False positive customer complaints",
+      "Customer satisfaction scores",
+      "Transaction approval rates"
+    ]
+  },
+  "automated_retraining": {
+    "triggers": [
+      "Performance degradation below thresholds",
+      "Significant data drift detected",
+      "Scheduled monthly retraining",
+      "Major feature engineering updates"
+    ],
+    "pipeline": [
+      "Data validation and preprocessing",
+      "Synthetic data generation with latest patterns",
+      "Model training and validation",
+      "A/B testing against current model",
+      "Automated deployment if improvements validated"
+    ]
+  }
+}

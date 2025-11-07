@@ -1,0 +1,16 @@
+{
+  "CTGAN": {
+    "average_mean_difference": 2.8004917462183854,
+    "average_js_divergence": 0.3723073390792505,
+    "average_ks_pvalue": 9.569097067728332e-12,
+    "synthetic_samples_generated": 250,
+    "quality_rating": "Needs Improvement"
+  },
+  "VAE": {
+    "average_mean_difference": 0.24567994251410755,
+    "average_js_divergence": 0.16609539651654343,
+    "average_ks_pvalue": 0.37544981701923796,
+    "synthetic_samples_generated": 250,
+    "quality_rating": "Needs Improvement"
+  }
+}

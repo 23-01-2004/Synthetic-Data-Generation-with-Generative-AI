@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-11-06T15:50:49.288157",
+  "best_overall_performance": {
+    "dataset": "Balanced_CTGAN",
+    "model": "RandomForest",
+    "f1_score": 0.8844221105527639,
+    "recall": 0.88,
+    "precision": 0.8888888888888888
+  },
+  "performance_improvement": {
+    "best_f1_score": 0.8844221105527639,
+    "baseline_f1_score": 0.6075949367088608,
+    "improvement_absolute": 0.2768271738439031,
+    "improvement_percentage": 45.561139028475715
+  },
+  "business_recommendation": {
+    "best_business_model": "XGBoost",
+    "best_business_dataset": "Balanced_CTGAN",
+    "max_net_benefit": 33370.0,
+    "min_cost_per_transaction": 7.8
+  },
+  "key_findings": {
+    "best_synthetic_method": "CTGAN",
+    "top_performing_model": "RandomForest",
+    "success_metrics_achieved": true
+  }
+}

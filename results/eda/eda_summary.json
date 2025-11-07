@@ -1,0 +1,19 @@
+{
+  "dataset_shape": {
+    "samples": 10000,
+    "features": 31
+  },
+  "minority_class_count": 250,
+  "majority_class_count": 9750,
+  "imbalance_ratio": 39.0,
+  "missing_values": 0,
+  "numerical_features": 30,
+  "highly_correlated_features": 2,
+  "top_5_important_features": [
+    "V6",
+    "V19",
+    "V21",
+    "V24",
+    "V5"
+  ]
+}
