@@ -1,9 +1,16 @@
-Synthetic Data Generation with Generative AI
+# Synthetic Data Generation with Generative AI
 
 A comprehensive 5-phase project demonstrating advanced techniques for handling class imbalance using Generative AI.
 
 <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="25"> <img src="https://img.shields.io/badge/Visualization-FF6B6B?style=for-the-badge&logo=matplotlib&logoColor=white" height="25"> <img src="https://img.shields.io/badge/Machine%20Learning-4ECDC4?style=for-the-badge&logo=scikit-learn&logoColor=white" height="25"> <img src="https://img.shields.io/badge/Deep%20Learning-45B7D1?style=for-the-badge&logo=pytorch&logoColor=white" height="25"> <img src="https://img.shields.io/badge/Utilities-96CEB4?style=for-the-badge&logo=jupyter&logoColor=white" height="25"> </p>
-📘 Table of Contents
+
+**Project Overview**
+
+This project addresses the critical challenge of class imbalance in machine learning, particularly in high-stakes domains like fraud detection and medical diagnosis.
+Traditional models often fail to identify rare but crucial cases.
+We implemented Generative AI techniques (GANs and VAEs) to create realistic synthetic data for the minority class, improving model performance significantly.
+
+ Table of Contents
 
 Project Overview
 
@@ -25,13 +32,9 @@ Documentation
 
 Contributing
 
-🧩 Project Overview
 
-This project addresses the critical challenge of class imbalance in machine learning, particularly in high-stakes domains like fraud detection and medical diagnosis.
-Traditional models often fail to identify rare but crucial cases.
-We implemented Generative AI techniques (GANs and VAEs) to create realistic synthetic data for the minority class, improving model performance significantly.
 
-⚠️ The Problem
+ The Problem
 
 Severe class imbalance (often 99:1 ratio in fraud detection)
 
@@ -41,7 +44,7 @@ Poor detection of rare but critical cases
 
 Business impact: Missed frauds, undiagnosed diseases, security breaches
 
-💡 Our Solution
+ Our Solution
 
 Generative Adversarial Networks (GANs) for tabular data
 
@@ -51,7 +54,7 @@ Comprehensive validation with statistical tests and visualizations
 
 Business impact analysis with cost-benefit evaluation
 
-✅ What We Accomplished
+ What We Accomplished
 Phase 1: Foundation & Data Preparation
 
 Established project structure and environment
@@ -98,32 +101,32 @@ Deployment roadmap and monitoring framework
 
 Reproducibility and scalability ensured
 
-⚙️ Tech Stack
-🧠 Core Data Science
+ Tech Stack
+ Core Data Science
 import pandas as pd
 import numpy as np
 import scikit-learn as sklearn
 import scipy as sp
 
-📊 Visualization
+ Visualization
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-🤖 Machine Learning
+ Machine Learning
 import xgboost as xgb
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from imblearn.over_sampling import SMOTE
 
-🧩 Deep Learning & Generative AI
+ Deep Learning & Generative AI
 import torch
 import tensorflow as tf
 from ctgan import CTGAN
 from sdv.tabular import CTGAN as SDV_CTGAN
 from sdv.tabular import TVAE
 
-🧰 Utilities
+ Utilities
 import jupyter
 import notebook
 import tqdm
@@ -131,7 +134,7 @@ import pyyaml
 import json
 import warnings
 
-📁 Project Structure
+ Project Structure
 synthetic_data_imbalanced/
 ├── data/
 │   ├── raw/                    # Original datasets
@@ -175,9 +178,9 @@ pip install -r requirements.txt
 # 4. Launch Notebook
 jupyter notebook
 
-🚀 Project Phases
+ Project Phases
 Phase	Description	Notebook
-🟦 Phase 1	Foundation & Data Preparation	01_eda_baseline.ipynb
+🟦 Phase 1	Foundation & Data Preparation	01_eda_baseline.ipynb 
 🟩 Phase 2	Exploratory Data Analysis	02_comprehensive_eda.ipynb
 🟪 Phase 3	Synthetic Data Generation	03_synthetic_data_generation.ipynb
 🟧 Phase 4	Model Training & Evaluation	04_model_training_evaluation.ipynb
