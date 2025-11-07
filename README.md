@@ -1,11 +1,7 @@
 # Synthetic-Data-Generation-with-Generative-AI
 
 Synthetic Data Generation for Imbalanced Classification
-<div align="center">
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/Machine%2520Learning-Advanced-orange
-https://img.shields.io/badge/Generative%2520AI-GANs%2520%2526%2520VAEs-purple
-https://img.shields.io/badge/Status-Completed-success
+
 
 *A comprehensive 5-phase project demonstrating advanced techniques for handling class imbalance using Generative AI*
 
@@ -31,7 +27,7 @@ https://img.shields.io/badge/Status-Completed-success
 
  Contributing
 
-🎯 Project Overview
+Project Overview
 This project addresses the critical challenge of class imbalance in machine learning, particularly in high-stakes domains like fraud detection and medical diagnosis. Traditional models often fail to identify rare but important cases. We implemented Generative AI techniques (GANs and VAEs) to create realistic synthetic data for the minority class, significantly improving model performance.
 
  The Problem
